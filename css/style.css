@@ -1,8 +1,16 @@
 .body {
   background: black;
+  background-image: url(../img/wallpapers-cars-01.jpg);
   display: block;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+@media (max-width: 767px) {
+  .body {
+    background-image: url(../img/mob-wallpapers-cars-01.jpg);
+  }
 }
 
 .header {
@@ -11,27 +19,41 @@
 
 .main_logo {
   display: flex;
-  width: 99.8%;
+  width: 100%;
   height: 100%;
   border: 1px solid #cecece;
   border-radius: 5px;
 }
 
 .menu_block {
-  display: flex;
-  width: 99.8%;
+  display: block;
+  width: 100%;
   height: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border: 1px solid #cecece;
   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.menu_list {
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu_list_item {
   display: inline-block;
-  margin: 5px;
+  margin: 2px;
+  padding: 10px;
+  border: 1px;
+  border-radius: 3px;
 }
 
 .span_menu_item {
-  color: yellow;
+  color: rgb(252, 252, 111);
+  text-decoration: none;
   font-size: 100%;
   font-weight: bold;
 }
@@ -40,18 +62,21 @@
   display: flex;
   float: left;
   width: 25%;
-  height: 500px;
+  height: 1500px;
   margin: 0;
   border: 1px solid #cecece;
   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .main_content {
   display: flex;
-  width: 74.7%;
+  width: 73.5%;
+  float: right;
   margin: 0;
-  margin-right: -3px;
-  height: 500px;
+  /* margin-right: -3px; */
+  height: 1500px;
   border: 1px solid #cecece;
   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
 }
