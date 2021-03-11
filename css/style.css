@@ -1,0 +1,57 @@
+.body {
+  background: black;
+  display: block;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  display: block;
+}
+
+.main_logo {
+  display: flex;
+  width: 99.8%;
+  height: 100%;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+}
+
+.menu_block {
+  display: flex;
+  width: 99.8%;
+  height: 100%;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+}
+
+.menu_list_item {
+  display: inline-block;
+  margin: 5px;
+}
+
+.span_menu_item {
+  color: yellow;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.news {
+  display: flex;
+  float: left;
+  width: 25%;
+  height: 500px;
+  margin: 0;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+}
+
+.main_content {
+  display: flex;
+  width: 74.7%;
+  margin: 0;
+  margin-right: -3px;
+  height: 500px;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+}
